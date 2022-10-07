@@ -1,0 +1,76 @@
+*{
+    margin: 5px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+#caixa{
+    margin-top: 150px;
+    display: flexbox;
+    text-align: center;
+}
+
+#conteudo {
+    border: 1px solid #15172B;
+    border-radius: 5%;
+    display: block;
+    width: 500px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #15172B;
+}
+
+#formulario ::placeholder{
+    padding:5px ;
+}
+
+
+#senha , #nome , #email{
+    background-color: #303245;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    font-size: 25px;
+    
+}
+#formulario input[type="text"]{
+    background-color: #303245;
+    color: white;
+    padding-left: 5px;
+}
+
+input[type=submit]{
+ background-color: #0088DD;
+ width: 300px;
+ height: 50px;
+ border-radius: 5px;
+ color: white;
+ border: none;
+ margin: 30px;
+ font-size: 25px;
+}
+
+#senha {
+    color: white;
+}
+
+#cadastro {
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+#nome{
+    margin-top: 35px;
+}
+
+#msgErroEmail {
+    font-size: 15px;
+}
